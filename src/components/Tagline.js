@@ -1,13 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Tagline extends Component {
-    render() {
-        return (
-            <p className="text-center">
-                {this.props.children}
-            </p>
-        );
-    }
-}
+const Tagline = () =>
+    <p className="tagline">
+        web and app development
+    </p>
 
 export default Tagline;
