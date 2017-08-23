@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import './index.css'
+// import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/index.styl'
 
 const Header = () =>
   <div
@@ -36,10 +38,10 @@ const Header = () =>
 const TemplateWrapper = ({ children }) =>
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="several levels"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'web and app development' },
+        { name: 'keywords', content: 'several levels, web, app, development' },
       ]}
     />
     <Header />

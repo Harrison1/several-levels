@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "bootstrap": "4.0.0-beta",
     "express": "^4.15.4",
     "gatsby": "^1.8.12",
     "gatsby-link": "^1.6.8",
@@ -23,6 +22,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "bootstrap": "4.0.0-beta",
     "prettier": "^1.5.2"
   }
 }

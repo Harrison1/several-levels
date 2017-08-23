@@ -10,6 +10,9 @@ const IndexPage = () =>
     </Tagline>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
+    <code>My code here</code>
+    <pre>My pre here</pre>
+    <button type="button" className="btn btn-primary">Hello</button>
     <Link to="/page-2/">Go to page 2</Link>
   </div>
 
