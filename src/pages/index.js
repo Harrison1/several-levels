@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Navbar from '../components/Navbar'
 import Tagline from '../components/Tagline'
 import Header from '../components/Header'
 
 const IndexPage = () =>
   <div>
+    <Navbar />
     <Header />
       <div className="container">
       <h1>Hi people</h1>
