@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Navbar from '../components/Navbar'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'semantic-ui-css/semantic.min.css'
 import '../styles/index.styl'
 
 const TemplateWrapper = ({ children }) =>
