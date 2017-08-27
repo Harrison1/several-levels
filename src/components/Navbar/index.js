@@ -3,7 +3,6 @@ import Nav from './Nav'
 import Brand from './Brand'
 import ToggleNav from './ToggleNav'
 import NavLinks from './NavLinks'
-import { Menu, Segment, Sticky } from 'semantic-ui-react'
 import Link from 'gatsby-link'
 
 const Navbar = () =>

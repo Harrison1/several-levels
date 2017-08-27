@@ -1,21 +1,39 @@
-import React from 'react'
+import React, { Component }  from 'react'
 
-function toggle() {
-    const menu = document.querySelector('.navbar-collapse');
-    const xbtn = document.querySelector('.navbar-toggler');
-    if (menu.style.display === 'block') {
-        menu.style.display = 'none';
-        xbtn.classList.remove('change');
-    } else {
-        menu.style.display = 'block';
-        xbtn.classList.add('change');
+class ToggleNav extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            isActive: false
+        }
+
+        this.toggleNav = this.toggleNav.bind(this);
     }
-}
 
-const ToggleNav = () =>
-    <button className="navbar-toggler" type="button" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onClick={toggle}>
-        <div className="bar1"></div>
-        <div className="bar2"></div>
-    </button>
+    toggleNav() {
+        this.setState(prevState => ({
+            isActive: !prevState.isActive
+        }))
+
+        const menu = document.querySelector('.navbar-collapse');
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
+        } else {
+            menu.style.display = 'block';
+        }
+    }
+
+    render() {
+        return (
+            <button className={this.state.isActive ? 'navbar-toggler change': 'navbar-toggler'} type="button" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onClick={this.toggleNav}>
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+            </button>
+        )
+    }
+
+
+}
 
 export default ToggleNav
