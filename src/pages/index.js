@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Vivus from 'vivus'
 import Tagline from '../components/Tagline'
 import Header from '../components/Header'
 import Container from '../components/utils/Container'
