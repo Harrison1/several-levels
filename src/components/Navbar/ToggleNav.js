@@ -1,6 +1,6 @@
 import React, { Component }  from 'react'
 
-class ToggleNav extends React.Component {
+class ToggleNav extends Component {
     constructor(props) {
         super(props);
 
