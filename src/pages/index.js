@@ -13,6 +13,8 @@ import nodelogo from '../img/nodejs-logo.svg'
 import wordpresslogo from '../img/wordpress-logo.svg'
 import phplogo from '../img/php-logo.svg'
 import shopifylogo from '../img/shopify-logo.svg'
+import ioslogo from '../img/ios-logo.svg'
+import androidlogo from '../img/android-logo.svg'
 
 const IndexPage = () =>
   <div>
@@ -64,19 +66,46 @@ const IndexPage = () =>
               <img src={ wordpresslogo } className="svg-logo" alt="wordpress logo" />
             </div>
             <h3>WordPress</h3>
-            <p>JavaScript is quickly taking over the web community. The high-level programming language is extremely dynamic and powerful and I can make some magnificant software with JavaScript.</p>
+            <p>I make custom themes and plugins for the world's most popular CMS.</p>
           </ColSM4>
           <ColSM4>
             <div className="w-100 svg-logo-h d-flex">
               <img src={ phplogo } className="w-100 m-auto" alt="php logo" />
             </div>
             <h3>PHP</h3>
-            <p>React is my preferred Javascript library. The flexabilty and the component based structure makes it easy to work with while making extremely powerful apps.</p>
+            <p>PHP is the backbone of most of the world's servers and it can be extremely poweful and efficient when used correctly</p>
           </ColSM4>
           <ColSM4>
             <img src={ shopifylogo } className="w-100 svg-logo-h" alt="nodejs logo" />
             <h3>Shopify</h3>
-            <p>NodeJS keeps my workflow in JavaScript and allows for apps to be built quickly and efficiently.</p>
+            <p>Shopify is my preffered e-commerce platform. I customize themes and generate dynamic front facing stores.</p>
+          </ColSM4>
+        </Row>
+      </Container>
+
+      <HeroText>
+        <Container>
+          <h3 className="font-italic f-300">"having the world's information in your pocket is an incredible feat that takes unrelenting responsibility"</h3>
+        </Container>
+      </HeroText>
+
+      <Container>
+        <h2 className="text-center f-300">The World in Our Pocket</h2>
+        <p className="text-center sub-text mb-5">app development can directly bring prodcuts to users' hands</p> 
+        <Row>
+          <ColSM4>
+            <div className="w-100 svg-logo-h">
+              <img src={ ioslogo } className="svg-logo" alt="wordpress logo" />
+            </div>
+            <h3>WordPress</h3>
+            <p>I make custom themes and plugins for the world's most popular CMS.</p>
+          </ColSM4>
+          <ColSM4>
+            <div className="w-100 svg-logo-h d-flex">
+              <img src={ androidlogo } className="w-100 m-auto" alt="php logo" />
+            </div>
+            <h3>PHP</h3>
+            <p>PHP is the backbone of most of the world's servers and it can be extremely poweful and efficient when used correctly</p>
           </ColSM4>
         </Row>
       </Container>
