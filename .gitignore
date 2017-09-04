@@ -8,3 +8,5 @@ public/
 yarn-error.log
 yarn.lock
 src/videos
+.firebasesrc
+firebase.json
