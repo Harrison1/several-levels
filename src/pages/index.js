@@ -113,9 +113,9 @@ const IndexPage = () =>
         </Row>
       </Container>
 
-      <div className="sl-bg mb-5">
+      <div className="sl-bg mb-5 pt-5 pb-5">
         <Container>
-          <h2 id="contact" className="text-center f-300 pt-5">Get in Touch</h2>
+          <h2 id="contact" className="text-center f-300">Get in Touch</h2>
           <p className="text-center sub-text mb-5">I'm available for freelance work. Contact me to move the conversation forward. We can discuss services and budget. Some of my services include web/app development, website maintenance, WordPress site customization, and WordPress maintenance</p> 
           <div dangerouslySetInnerHTML={{__html: '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduy4PiQModrzB5FWuYnNngsFVI27bMMQQnCdZ7SnDzAvfMdA/viewform?embedded=true" width="100%" height="1100" frameBorder="0" marginHeight="0" marginWidth="0">Loading...</iframe>'}} />
         </Container>
