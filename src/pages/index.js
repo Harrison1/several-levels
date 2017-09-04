@@ -157,8 +157,6 @@ const IndexPage = () =>
         </Row>
         <p className="text-center mt-5 mb-3"><small>Several Levels Productions, LLC is currently a one person LLC lead by Harrison McGuire.</small></p>
       </Container>
-
-
   </div>
 
 export default IndexPage
