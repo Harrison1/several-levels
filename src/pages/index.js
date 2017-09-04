@@ -26,7 +26,8 @@ const IndexPage = () =>
           </Col12>
         </Row>
         <hr />
-        {/* <p>I've done work for...</p> */}
+        <h2 className="text-center f-300">The Modern Web is Made with JavaScript</h2>
+        <p className="text-center sub-text mb-5">JavaScript is the most in demand language for the web and it can do some exciting things for websites</p> 
         <Row>
           <ColSM4>
             <svg xmlns="http://www.w3.org/2000/svg" className="svg-logo mx-auto" viewBox="0 0 630 630">
@@ -76,7 +77,7 @@ const IndexPage = () =>
             <p>PHP is the backbone of most of the world's servers and it can be extremely poweful and efficient when used correctly</p>
           </ColSM4>
           <ColSM4>
-            <img src={ shopifylogo } className="w-100 svg-logo-h" alt="nodejs logo" />
+            <img src={ shopifylogo } className="w-100 svg-logo-h" alt="shopify logo" />
             <h3>Shopify</h3>
             <p>Shopify is my preffered e-commerce platform. I customize themes and generate dynamic front facing stores.</p>
           </ColSM4>
@@ -95,21 +96,43 @@ const IndexPage = () =>
         <Row>
           <ColSM4>
             <div className="w-100 svg-logo-h">
-              <img src={ ioslogo } className="svg-logo" alt="wordpress logo" />
+              <img src={ ioslogo } className="svg-logo" alt="ios logo" />
             </div>
-            <h3>WordPress</h3>
-            <p>I make custom themes and plugins for the world's most popular CMS.</p>
+            <h3>iOS</h3>
+            <p>Swift is a lot of fun to make new and exciting apps for Apple's App Store</p>
           </ColSM4>
           <ColSM4>
             <div className="w-100 svg-logo-h d-flex">
-              <img src={ androidlogo } className="w-100 m-auto" alt="php logo" />
+              <img src={ androidlogo } className="w-100 m-auto svg-h-200" alt="android logo" />
             </div>
-            <h3>PHP</h3>
-            <p>PHP is the backbone of most of the world's servers and it can be extremely poweful and efficient when used correctly</p>
+            <h3>Android</h3>
+            <p>Android is the most popular phone in the world, let's put an app on the Play Store</p>
           </ColSM4>
         </Row>
       </Container>
 
+      <HeroText>
+        <Container>
+          <div dangerouslySetInnerHTML={{__html: '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduy4PiQModrzB5FWuYnNngsFVI27bMMQQnCdZ7SnDzAvfMdA/viewform?embedded=true" width="100%" height="1100" frameBorder="0" marginHeight="0" marginWidth="0">Loading...</iframe>'}} />
+        </Container>
+      </HeroText>
+
+      <Container>
+        <Row>
+          <ColSM4>
+            <h2 className="text-center f-300">Founder</h2>
+            <p className="text-center sub-text mb-5">Harrison McGuire</p>
+          </ColSM4>
+          <ColSM4>
+            <h2 className="text-center f-300">Location</h2>
+            <p className="text-center sub-text mb-5">Boca Raton, FL</p>
+          </ColSM4>
+          <ColSM4>
+            <h2 className="text-center f-300">Country</h2>
+            <p className="text-center sub-text mb-5">USA</p>
+          </ColSM4>
+        </Row>
+      </Container>
   </div>
 
 export default IndexPage
