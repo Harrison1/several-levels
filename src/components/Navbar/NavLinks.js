@@ -4,9 +4,9 @@ import Link from 'gatsby-link'
 const NavLinks = () =>
     <div className="collapse navbar-collapse justify-content-end">
         <div className="navbar-nav">
-            <Link className="nav-item nav-link text-white" to="/">Services</Link>
-            <Link className="nav-item nav-link text-white" to="/page-2/">Tutorials</Link>
-            <Link className="nav-item nav-link text-white" to="/">Contact</Link>
+            <a className="nav-item nav-link text-white" href="#services">Services</a>
+            <Link className="nav-item nav-link text-white" to="https://blog.severallevels.io">Blog</Link>
+            <a className="nav-item nav-link text-white" href="#contact">Contact</a>
         </div>
     </div>
 

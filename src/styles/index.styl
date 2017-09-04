@@ -9,12 +9,28 @@ a:hover
 .header-logo-img
     height auto
     margin-bottom 1rem
+    margin-top 3rem
     max-width 200px
+    width 125px
+
+    @media screen and (min-width: 736px)
+        width 200px
+
+.header-title-img
+    height auto
+    margin-bottom 1rem
+    max-width 200px
+
+.header-tagline-img
+    height auto
+    margin-bottom 1rem
+    max-width 300px
 
 .navbar
     background-color rgba(39, 207, 230, 0.9)
     padding-left 5% 
     padding-right 5%
+    position absolute
     -webkit-transition background-color 1s ease
     -moz-transition background-color 1s ease
     -o-transition background-color 1s ease
@@ -22,6 +38,9 @@ a:hover
     
     @media screen and (min-width: 736px)
         background-color rgba(39, 207, 230, 0)
+        position fixed
+
+
 
 .fill-bg
     background-color rgba(39, 207, 230, 0.9)
@@ -43,6 +62,10 @@ a:hover
 
 .sl-font-color 
     color slblue
+
+.sl-bg 
+    background-color slblue
+    color white
 
 .f-300
     font-weight 300

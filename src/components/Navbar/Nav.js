@@ -5,29 +5,24 @@ class Nav extends Component {
         super(props)
 
         this.state = {
-            isActive: false
+            isAActive: false
         }
 
-        this.toggleBG = this.toggleBG.bind(this);
     }
 
-    toggleBG() {
-        console.log('hello')
-        this.setState(prevState => ({
-            isActive: !prevState.isActive
-        }))
-    }
 
     componentDidMount() {
         const _this = this
         window.addEventListener('scroll', function(e) {
             if(window.scrollY>25) {
-                _this.setState ({
-                    isActive: true
-                })
+                if(!_this.state.isAActive) {
+                    _this.setState ({
+                        isAActive: true
+                    })
+                }
             } else {
                 _this.setState ({
-                    isActive: false
+                    isAActive: false
                 })
             }
         })
@@ -35,7 +30,7 @@ class Nav extends Component {
 
     render() {
         return (
-            <nav className={'navbar navbar-expand-lg navbar-dark fixed-top ' + (this.state.isActive ? 'fill-bg' : '')}>
+            <nav className={'navbar navbar-expand-lg navbar-dark fixed-top ' + (this.state.isAActive ? 'fill-bg' : '')}>
                 { this.props.children }
             </nav>
         )
