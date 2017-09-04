@@ -136,7 +136,26 @@ const IndexPage = () =>
             <p className="text-center sub-text mb-5">Boca Raton, FL</p>
           </ColSM4>
         </Row>
-        <p className="text-center"><small>Several Levels Productions, LLC is currently a one person LLC lead by Harrison McGuire.</small></p>
+
+        <h2 id="contact" className="text-center f-300 mb-3">Where You Can Find Me</h2>
+        <Row>
+          <div className="col-sm-2 text-center">
+            <a className="btn btn-outline-dark w-100" href="https://github.com/Harrison1" role="button">Github</a>
+          </div>
+          <div className="col-sm-2 text-center">
+            <a className="btn btn-outline-youtube w-100" href="https://www.youtube.com/channel/UC3QmKYux59jdGJWgMopzWTw" role="button">YouTube</a>
+          </div>
+          <div className="col-sm-2 text-center">
+            <a className="btn btn-outline-twitch w-100" href="https://www.twitch.tv/harrisonmcguire" role="button">Twitch</a>
+          </div>
+          <div className="col-sm-2 text-center">
+            <a className="btn btn-outline-twitter w-100" href="https://twitter.com/HarryMcGueeze" role="button">Twitter</a>
+          </div>
+          <div className="col-sm-2 text-center">
+            <a className="btn btn-outline-linkedin w-100" href="https://www.linkedin.com/in/harrisonmcguire/" role="button">Linkedin</a>
+          </div>
+        </Row>
+        <p className="text-center mt-5 mb-3"><small>Several Levels Productions, LLC is currently a one person LLC lead by Harrison McGuire.</small></p>
       </Container>
 
 
