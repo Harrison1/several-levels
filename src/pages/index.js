@@ -27,7 +27,8 @@ const IndexPage = () =>
         </Row>
         <hr />
         <h2 id="services" className="text-center f-300">The Modern Web is Built with JavaScript</h2>
-        <p className="text-center sub-text mb-5">JavaScript has quickly taking over the web community with its versatility and vast range of powers</p> 
+        <p className="text-center sub-text mb-1">JavaScript has quickly taking over the web community with its versatility and vast range of powers</p>
+        <p className="text-center font-italic mb-5">this site is made with React and Gatsby JS</p>
         <Row>
           <ColSM4>
             <svg xmlns="http://www.w3.org/2000/svg" className="svg-logo mx-auto" viewBox="0 0 630 630">
@@ -139,19 +140,19 @@ const IndexPage = () =>
 
         <h2 id="around" className="text-center f-300 mb-3">Where You Can Find Me</h2>
         <Row>
-          <div className="col-sm-2 text-center">
+          <div className="col-md-2 text-center mb-3">
             <a className="btn btn-outline-dark w-100" href="https://github.com/Harrison1" role="button">Github</a>
           </div>
-          <div className="col-sm-2 text-center">
+          <div className="col-md-2 text-center mb-3">
             <a className="btn btn-outline-youtube w-100" href="https://www.youtube.com/channel/UC3QmKYux59jdGJWgMopzWTw" role="button">YouTube</a>
           </div>
-          <div className="col-sm-2 text-center">
+          <div className="col-md-2 text-center mb-3">
             <a className="btn btn-outline-twitch w-100" href="https://www.twitch.tv/harrisonmcguire" role="button">Twitch</a>
           </div>
-          <div className="col-sm-2 text-center">
+          <div className="col-md-2 text-center mb-3">
             <a className="btn btn-outline-twitter w-100" href="https://twitter.com/HarryMcGueeze" role="button">Twitter</a>
           </div>
-          <div className="col-sm-2 text-center">
+          <div className="col-md-2 text-center mb-3">
             <a className="btn btn-outline-linkedin w-100" href="https://www.linkedin.com/in/harrisonmcguire/" role="button">Linkedin</a>
           </div>
         </Row>
