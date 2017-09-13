@@ -5,4 +5,3 @@ const Brand = ({brand}) =>
     <Link className="navbar-brand" to="/">{ brand }</Link>
 
 export default Brand
-
