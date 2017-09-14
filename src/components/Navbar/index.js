@@ -35,7 +35,3 @@ export default Navbar
 //       )
 //     }
 //   }
-
-  
-//   <Link className="nav-item nav-link text-white" to="/page-2/">Tutorials</Link>
-//   <Link className="nav-item nav-link text-white" to="/">Contact</Link>
