@@ -9,8 +9,7 @@ class Nav extends Component {
         }
 
     }
-
-
+    
     componentDidMount() {
         const _this = this
         window.addEventListener('scroll', function(e) {
