@@ -12,7 +12,7 @@ const TemplateWrapper = ({ children }) =>
     <Helmet
       title="several levels"
       meta={[
-        { name: 'description', content: 'web and app development' },
+        { name: 'description', content: 'several levels is a web and app development company dedicated to making excellent, performant, modern software.' },
         { name: 'keywords', content: 'several, levels, web, app, development, harrison, mcguire' },
         { charSet: 'utf-8'},
         { name: 'theme-color', content: '#27cfe6'}
