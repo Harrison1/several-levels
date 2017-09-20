@@ -1,5 +1,5 @@
 # several levels
-several levels website using React, Gatsby, vivus js, and stylus
+several levels website built using React, Gatsby, vivus js, and stylus
 
 Site
 [several levels](https://severallevels.io)
