@@ -1,3 +1,5 @@
+// highlight nav items
+
 // export default class NavBar extends Component {
 //     state = { activeItem: 'home' }
   
