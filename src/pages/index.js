@@ -138,7 +138,7 @@ const IndexPage = () =>
           </ColSM4>
         </Row>
 
-        <h2 id="around" className="text-center f-300 mb-3">Where You Can Find Me</h2>
+        <h2 id="around" className="text-center f-300 mb-3">Where To Find Me</h2>
         <Row>
           <div className="col-md-2 text-center mb-3">
             <a className="btn btn-outline-dark w-100" href="https://github.com/Harrison1" role="button">Github</a>
