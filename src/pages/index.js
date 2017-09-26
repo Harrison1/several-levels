@@ -16,7 +16,7 @@ import shopifylogo from '../img/shopify-logo.svg'
 import ioslogo from '../img/ios-logo.svg'
 import androidlogo from '../img/android-logo.svg'
 
-// TODO: Clean up
+// TODO: Clean up and create components
 
 const IndexPage = () =>
   <div>
