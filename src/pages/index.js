@@ -16,7 +16,7 @@ import shopifylogo from '../img/shopify-logo.svg'
 import ioslogo from '../img/ios-logo.svg'
 import androidlogo from '../img/android-logo.svg'
 
-// TODO: Clean up and put partial sections into react components
+// TODO: Clean up and put partial sections into react js components
 
 const IndexPage = () =>
   <div>
