@@ -8,6 +8,6 @@ public/
 yarn-error.log
 yarn.lock
 src/videos
-.firebasesrc
+.firebaserc
 firebase.json
 gatsby-config.js
