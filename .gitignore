@@ -10,3 +10,4 @@ yarn.lock
 src/videos
 .firebasesrc
 firebase.json
+gatsby-config.js
