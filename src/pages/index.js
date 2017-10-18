@@ -16,7 +16,7 @@ import shopifylogo from '../img/shopify-logo.svg'
 import ioslogo from '../img/ios-logo.svg'
 import androidlogo from '../img/android-logo.svg'
 
-// TODO: put partial sections into react components and add portfolio section
+// TODO: put partial sections into react js components and add portfolio section
 
 const IndexPage = () =>
   <div>
