@@ -8,6 +8,7 @@ import Container from '../components/utils/Container'
 import Row from '../components/utils/Row'
 import Col12 from '../components/utils/Col12'
 import ColSM4 from '../components/utils/ColSM4'
+import Portfolio from '../components/Portfolio/index.js'
 import reactlogo from '../img/react-logo.svg'
 import nodelogo from '../img/nodejs-logo.svg'
 import wordpresslogo from '../img/wordpress-logo.svg'
@@ -30,7 +31,7 @@ const IndexPage = () =>
         <hr />
         <h2 id="services" className="text-center f-300">The Modern Web is Built with JavaScript</h2>
         <p className="text-center sub-text mb-1">JavaScript has quickly taking over the web community with its versatility and vast range of powers</p>
-        <p className="text-center font-italic mb-5">this site is made with React and Gatsby JS</p>
+        <p className="text-center font-italic mb-5">this site was made with React and Gatsby JS</p>
         <Row>
           <ColSM4>
             <svg xmlns="http://www.w3.org/2000/svg" className="svg-logo mx-auto" viewBox="0 0 630 630">
@@ -112,6 +113,20 @@ const IndexPage = () =>
             </div>
             <h3>Android</h3>
             <p>Android is the most popular phone OS in the world, let's put an app on the Play Store</p>
+          </ColSM4>
+        </Row>
+      </Container>
+
+      <HeroText>
+        <Container>
+          <h3 className="font-italic f-300">"previous work for a past to drive the future"</h3>
+        </Container>
+      </HeroText>
+
+      <Container>
+        <Row>
+          <ColSM4>
+            <Portfolio img={ androidlogo } title="Financial Services" description="Angular JS 1 SPA"></Portfolio>
           </ColSM4>
         </Row>
       </Container>
