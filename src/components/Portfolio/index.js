@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Portfolio = ({title, description, img}) =>
+const Portfolio = ({link, title, description, img}) =>
     <div>
-        <img  src={ img } className="w-100" alt={ title } />
-        <h3>{ title }</h3>
+        <a href={ link }>
+            <img src={ img } className="w-100" alt={ title } />
+        </a>
+        <h4><a href={ link } className="portfolio-link">{ title }</a></h4>
         <p>{ description }</p>
     </div>
 

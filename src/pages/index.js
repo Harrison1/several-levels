@@ -8,6 +8,7 @@ import Container from '../components/utils/Container'
 import Row from '../components/utils/Row'
 import Col12 from '../components/utils/Col12'
 import ColSM4 from '../components/utils/ColSM4'
+import ColMD4 from '../components/utils/ColMD4'
 import Portfolio from '../components/Portfolio/index.js'
 import reactlogo from '../img/react-logo.svg'
 import nodelogo from '../img/nodejs-logo.svg'
@@ -16,8 +17,6 @@ import phplogo from '../img/php-logo.svg'
 import shopifylogo from '../img/shopify-logo.svg'
 import ioslogo from '../img/ios-logo.svg'
 import androidlogo from '../img/android-logo.svg'
-
-// TODO: put partial sections into react components and add portfolio section
 
 const IndexPage = () =>
   <div>
@@ -30,7 +29,7 @@ const IndexPage = () =>
         </Row>
         <hr />
         <h2 id="services" className="text-center f-300">The Modern Web is Built with JavaScript</h2>
-        <p className="text-center sub-text mb-1">JavaScript has quickly taking over the web community with its versatility and vast range of powers</p>
+        <p className="text-center sub-text mb-1">JavaScript has quickly taken over the web community with its versatility and vast range of powers</p>
         <p className="text-center font-italic mb-5">this site was made with React and Gatsby JS</p>
         <Row>
           <ColSM4>
@@ -124,12 +123,24 @@ const IndexPage = () =>
       </HeroText>
 
       <Container>
-        <Row>
-          <ColSM4>
-            <Portfolio img={ androidlogo } title="Financial Services" description="Angular JS 1 SPA"></Portfolio>
-          </ColSM4>
-        </Row>
+        <h2 className="text-center f-300">Portfolio</h2>
+        <p className="text-center sub-text mb-5">Feel free to check out some sites I've made</p> 
       </Container>
+
+      <div className="container-fluid">
+        <Row>
+          <ColMD4>
+            <Portfolio img="https://res.cloudinary.com/several-levels/image/upload/v1515266188/unrealcpp_q81zos.png" link="https://unrealcpp.com/" title="Unreal C++" description="GatsbyJS Blog" />
+          </ColMD4>
+          <ColMD4>
+            <Portfolio img="https://res.cloudinary.com/several-levels/image/upload/v1515265927/directv_ystoad.png" link="http://insider.directv.com/" title="DIRECTV" description="Custom WordPress Theme" />
+          </ColMD4>
+          <ColMD4>
+            <Portfolio img="https://res.cloudinary.com/several-levels/image/upload/v1515266188/hfscompanies_e36sue.png" link="http://hfscompanies.com/" title="Hartfield Financial Solutions" description="Angular 1 Single Page App" />
+          </ColMD4>
+        </Row>
+      </div>
+      
 
       <div className="sl-bg mb-5 pt-5 pb-5">
         <Container>
