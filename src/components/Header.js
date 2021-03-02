@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Vivus from 'vivus'
 import Container from './utils/Container'
-import ShowCaseVideo from './ShowCaseVideo'
+import oceanVideoMP4 from '../videos/ocean.mp4'
 
 class Header extends Component {
 
@@ -20,7 +20,6 @@ class Header extends Component {
     }
 
     toggleReady() {
-        console.log('ready');
         this.setState(prevState => ({
             ready: !prevState.ready
         }))
@@ -55,7 +54,11 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <ShowCaseVideo />    
+                <div className="tv">
+                    <video preload="auto" className="showcase-video" autoPlay loop muted>
+                        <source src={oceanVideoMP4} type="video/mp4" />
+                    </video>
+                </div>
             
                 <div className="sl-header d-flex align-items-center">
                     <Container>
