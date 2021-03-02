@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Navbar from '../components/Navbar'
 import appleIcon57 from '../favicons/apple-icon-57x57.png'
 import appleIcon60 from '../favicons/apple-icon-60x60.png'
 import appleIcon72 from '../favicons/apple-icon-72x72.png'
@@ -40,10 +39,7 @@ const TemplateWrapper = ({ children }) =>
         { rel: 'canonical', href: 'https://severallevels.io'}
       ]}
     />
-    <Navbar />
-    <div>
-      {children()}
-    </div>
+    {children()}
   </div>
 
 export default TemplateWrapper

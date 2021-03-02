@@ -1,7 +1,7 @@
 import React from 'react'
-import Link from 'gatsby'
+import { Link } from 'gatsby'
 
-const Brand = ({brand}) =>
+const Brand = ({ brand }) =>
     <Link className="navbar-brand" to="/">{ brand }</Link>
 
 export default Brand

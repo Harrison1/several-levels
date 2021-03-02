@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 import Header from '../components/Header'
 import Row from '../components/utils/Row'
 import phplogo from '../img/php-logo.svg'
@@ -19,6 +20,7 @@ import '../styles/index.styl'
 
 const IndexPage = () =>
   <div>
+    <Navbar />
     <Header />
       <Container>
         <Row>
@@ -145,7 +147,6 @@ const IndexPage = () =>
         <Container>
           <h2 id="contact" className="text-center f-300">Get in Touch</h2>
           <p className="text-center sub-text mb-5">We're available for freelance work. Contact us to move the conversation forward. We can discuss services and budget. Some of our services include web/app development, website maintenance, WordPress site customization, and WordPress maintenance</p> 
-          <div dangerouslySetInnerHTML={{__html: '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduy4PiQModrzB5FWuYnNngsFVI27bMMQQnCdZ7SnDzAvfMdA/viewform?embedded=true" width="100%" height="1100" frameBorder="0" marginHeight="0" marginWidth="0">Loading...</iframe>'}} />
         </Container>
       </div>
 
