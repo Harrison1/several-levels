@@ -1,5 +1,5 @@
 import React from 'react'
-import {Helmet} from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import Navbar from '../components/Navbar'
 import appleIcon57 from '../favicons/apple-icon-57x57.png'
 import appleIcon60 from '../favicons/apple-icon-60x60.png'
@@ -12,8 +12,6 @@ import androidChrome192 from '../favicons/android-chrome-192x192.png'
 import favicon32 from '../favicons/favicon-32x32.png'
 import favicon96 from '../favicons/favicon-96x96.png'
 import favicon16 from '../favicons/favicon-16x16.png'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../styles/index.styl'
 
 const TemplateWrapper = ({ children }) =>
   <div>

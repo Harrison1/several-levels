@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const NavLinks = () =>
     <div className="collapse navbar-collapse justify-content-end">

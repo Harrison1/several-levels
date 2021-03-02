@@ -1,19 +1,21 @@
 import React from 'react'
 import Header from '../components/Header'
-import HeroText from '../components/HeroText'
-import Container from '../components/utils/Container'
 import Row from '../components/utils/Row'
+import phplogo from '../img/php-logo.svg'
+import ioslogo from '../img/ios-logo.svg'
+import HeroText from '../components/HeroText'
 import Col12 from '../components/utils/Col12'
-import ColSM4 from '../components/utils/ColSM4'
-import ColMD4 from '../components/utils/ColMD4'
-import Portfolio from '../components/Portfolio/index.js'
 import reactlogo from '../img/react-logo.svg'
 import nodelogo from '../img/nodejs-logo.svg'
-import wordpresslogo from '../img/wordpress-logo.svg'
-import phplogo from '../img/php-logo.svg'
+import ColSM4 from '../components/utils/ColSM4'
+import ColMD4 from '../components/utils/ColMD4'
 import shopifylogo from '../img/shopify-logo.svg'
-import ioslogo from '../img/ios-logo.svg'
 import androidlogo from '../img/android-logo.svg'
+import wordpresslogo from '../img/wordpress-logo.svg'
+import Container from '../components/utils/Container'
+import Portfolio from '../components/Portfolio/index.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/index.styl'
 
 const IndexPage = () =>
   <div>
@@ -21,7 +23,7 @@ const IndexPage = () =>
       <Container>
         <Row>
           <Col12>
-            <h3 className="text-center intro-text">Hi, welcome to <span className="sl-font-color">several levels</span>. My name is Harrison McGuire and I am the founder and lead software developer. I'm dedicated to making excellent, performant, modern websites.</h3>
+            <h3 className="text-center intro-text">Hi, welcome to <span className="sl-font-color">several levels</span>. We are dedicated to making excellent, performant, modern websites.</h3>
           </Col12>
         </Row>
         <hr />
@@ -54,20 +56,20 @@ const IndexPage = () =>
         <Container>
           <h1 className="f-300">several levels</h1>
           <h2 className="f-300">web and app development</h2>
-          <h3 className="font-italic f-300">"I do things different striving for originality and modernity"</h3>
+          <h3 className="font-italic f-300">"We do things different striving for originality and modernity"</h3>
         </Container>
       </HeroText>
 
       <Container>
         <h2 className="text-center f-300">To Live and Breath With a CMS</h2>
-        <p className="text-center sub-text mb-5">CMS's can make the backend user experience incredible, but they can also add a lot of weight and unnecessary code to the project. I customize CMS themes to ensure great performance and user accessibility</p> 
+        <p className="text-center sub-text mb-5">CMS's can make the backend user experience incredible, but they can also add a lot of weight and unnecessary code to the project. We customize CMS themes to ensure great performance and user accessibility</p> 
         <Row>
           <ColSM4>
             <div className="w-100 svg-logo-h d-flex">
               <img src={ wordpresslogo } className="svg-h-200 m-auto" alt="wordpress logo" />
             </div>
             <h3>WordPress</h3>
-            <p>I make custom themes and plugins for the world's most popular CMS.</p>
+            <p>We make custom themes and plugins for the world's most popular CMS.</p>
           </ColSM4>
           <ColSM4>
             <div className="w-100 svg-logo-h d-flex">
@@ -81,7 +83,7 @@ const IndexPage = () =>
               <img src={ shopifylogo } className="svg-h-200 m-auto" alt="shopify logo" />
             </div>
             <h3>Shopify</h3>
-            <p>Shopify is my preferred ecommerce platform. I customize themes and generate dynamic front facing stores.</p>
+            <p>Shopify is my preferred ecommerce platform. We customize themes and generate dynamic front facing stores.</p>
           </ColSM4>
         </Row>
       </Container>
@@ -101,7 +103,7 @@ const IndexPage = () =>
               <img src={ ioslogo } className="svg-logo" alt="ios logo" />
             </div>
             <h3>iOS</h3>
-            <p>I develop iOS apps with Swift. Swift is a lot of fun to make new and exciting apps for Apple's App Store.</p>
+            <p>We develop iOS apps with Swift. Swift is a lot of fun to make new and exciting apps for Apple's App Store.</p>
           </ColSM4>
           <ColSM4>
             <div className="w-100 svg-logo-h d-flex">
@@ -142,7 +144,7 @@ const IndexPage = () =>
       <div className="sl-bg mb-5 pt-5 pb-5">
         <Container>
           <h2 id="contact" className="text-center f-300">Get in Touch</h2>
-          <p className="text-center sub-text mb-5">I'm available for freelance work. Contact me to move the conversation forward. We can discuss services and budget. Some of my services include web/app development, website maintenance, WordPress site customization, and WordPress maintenance</p> 
+          <p className="text-center sub-text mb-5">We're available for freelance work. Contact us to move the conversation forward. We can discuss services and budget. Some of our services include web/app development, website maintenance, WordPress site customization, and WordPress maintenance</p> 
           <div dangerouslySetInnerHTML={{__html: '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduy4PiQModrzB5FWuYnNngsFVI27bMMQQnCdZ7SnDzAvfMdA/viewform?embedded=true" width="100%" height="1100" frameBorder="0" marginHeight="0" marginWidth="0">Loading...</iframe>'}} />
         </Container>
       </div>
