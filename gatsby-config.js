@@ -1,6 +1,5 @@
 
 module.exports = {
-  pathPrefix: `/several-levels`,
   siteMetadata: {
     title: `Several Levels`,
     description: `Company Website for Several Levels Productions, LLC`,
