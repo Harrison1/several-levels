@@ -1,20 +1,23 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "description": "Several Levels Website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Harrison McGuire",
   "dependencies": {
-    "express": "^4.15.4",
-    "gatsby": "^1.8.12",
-    "gatsby-link": "^1.6.8",
-    "gatsby-plugin-google-analytics": "^1.0.8",
-    "gatsby-plugin-react-helmet": "^1.0.3",
-    "gatsby-plugin-stylus": "^1.1.3",
-    "prop-types": "^15.5.10",
-    "react-responsive": "^1.3.4",
-    "vivus": "^0.4.2"
+    "gatsby": "^2.32.9",
+    "gatsby-link": "^2.11.0",
+    "gatsby-plugin-google-analytics": "^2.11.0",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-stylus": "^2.10.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-responsive": "^8.2.0",
+    "vivus": "^0.4.5"
   },
   "keywords": [
+    "several",
+    "levels",
+    "react",
     "gatsby"
   ],
   "license": "MIT",
@@ -22,11 +25,9 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "bootstrap": "4.0.0-beta",
-    "prettier": "^1.5.2"
+    "bootstrap": "4.0.0-beta"
   }
 }

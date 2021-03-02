@@ -1,6 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
 import {Helmet} from 'react-helmet'
 import Navbar from '../components/Navbar'
 import appleIcon57 from '../favicons/apple-icon-57x57.png'
@@ -8,8 +6,6 @@ import appleIcon60 from '../favicons/apple-icon-60x60.png'
 import appleIcon72 from '../favicons/apple-icon-72x72.png'
 import appleIcon76 from '../favicons/apple-icon-76x76.png'
 import appleIcon114 from '../favicons/apple-icon-114x114.png'
-import appleIcon120 from '../favicons/apple-icon-120x120.png'
-import appleIcon144 from '../favicons/apple-icon-144x144.png'
 import appleIcon152 from '../favicons/apple-icon-152x152.png'
 import appleIcon180 from '../favicons/apple-icon-180x180.png'
 import androidChrome192 from '../favicons/android-chrome-192x192.png'
@@ -51,9 +47,5 @@ const TemplateWrapper = ({ children }) =>
       {children()}
     </div>
   </div>
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
 
 export default TemplateWrapper

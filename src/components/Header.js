@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import Vivus from 'vivus'
 import Container from './utils/Container'
-import Title from './Title'
-import Tagline from './Tagline'
-import logo from '../img/sl-strokes.svg'
 import ShowCaseVideo from './ShowCaseVideo'
 
 class Header extends Component {
